@@ -5,6 +5,7 @@ ImageNet Classification with Deep Convolutional Neural Networks(AlexNet) 논문 
 프레임워크: pytorch
 
 구현 기술: 
+
 normalize, activation(relu), Local Response Normalization,
 
 overlapping pooling, overall architecture, 
