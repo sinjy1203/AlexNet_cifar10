@@ -14,4 +14,4 @@ data augmentation: crop(training: random crop, test: five crop) pca color augmen
 
 dropout, stochastic gradient descent
           
-테스트 결과: 0.79 acc
+테스트 결과: 0.877 acc
