@@ -13,5 +13,3 @@ overlapping pooling, overall architecture,
 data augmentation: crop(training: random crop, test: five crop) pca color augmentation
 
 dropout, stochastic gradient descent
-          
-테스트 결과: 0.877 acc
