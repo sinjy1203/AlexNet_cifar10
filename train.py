@@ -24,7 +24,7 @@ optim = torch.optim.SGD(Net.parameters(), lr=lr, momentum=momentum, weight_decay
 mean = 0.4733630004850899
 
 train_transform = transforms.Compose([transforms.RandomCrop(size=28), transforms.ToTensor(),
-                                      pca_color_aug(), transforms.Normalize(mean=mean, std=1)])
+                                      pca_color_aug(), transforms.Normalize(mean=(mean, ), std=(1,))])
 train_datasets = datasets.CIFAR10(root="./", download=True, train=True, transform=train_transform)
 train_data_loader = DataLoader(train_datasets, batch_size=batch_size, shuffle=True)
 
