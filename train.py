@@ -47,7 +47,7 @@ for epoch in range(num_epochs):
         optim.step()
 
         loss_arr += [loss.item()]
-        acc = np.mean((pred == label.cpu().numpy()).astype(np.int))
+        acc = np.mean((pred == label.cpu().numpy()))
 
         acc_arr += [acc]
 
